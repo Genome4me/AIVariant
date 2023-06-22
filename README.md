@@ -3,6 +3,9 @@
 ## Publication
 Please cite "".
 
+## Workflow
+![Workflow](workflow.PNG)
+
 ## Requirements
 Need two separate virtual environment for the input generation and the evaluation of AIVariant 
 due to the confiliting packages and the version requirements!!!
@@ -36,6 +39,12 @@ wget https://www.encodeproject.org/files/ENCFF881LOL/@@download/ENCFF881LOL.bigW
 ```
 
 ## Usage 
+Before running the provided shell script, CONDA_PREFIX environment variable should be set to base conda path:
+```
+>$CONDA_PREFIX
+```
+above should return **~/anaconda3** or **~/miniconda**, if not then set the environment variable.
+
 Example usage:
 ```
 #Run the following commands inside the git cloned directory

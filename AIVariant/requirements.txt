@@ -1,0 +1,12 @@
+#CPU environment
+python 3.6.9
+numpy 1.17.3
+pyBigWig 0.3.17
+pysam 0.11.2.2
+liftover 1.1.14
+samtools 1.9
+
+#GPU environment
+python 3.9
+tensorflow 2.9.1
+keras 2.9.0
